@@ -1,0 +1,121 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color:  hsl(202, 86%, 94%);
+}
+
+.container{
+    display: flex;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 4%;
+    width: 900px;
+    height: 500px;
+    background-color: #fff;
+}
+
+.right{
+    width: 50%;
+    height: 500px;
+    border: 1px solid black;
+    background: hsl(202, 55%, 16%);
+    border-radius: 0 0 0 60px;
+    padding-left: 20px;
+    padding-right: 20px;
+    letter-spacing: 0.2px;
+    color:  hsl(202, 86%, 94%);
+    font-family:Arial, Helvetica, sans-serif;
+    line-height: 20px;
+
+}
+
+.right h2{
+    margin-top: 37px;
+}
+
+
+.description{
+    color:   hsl(203, 41%, 72%);
+}
+
+.left{
+    width: 50%;
+    height: 500px;
+    padding: 1em;
+}
+
+
+.first{
+    display: flex;
+    justify-content: space-between;
+}
+
+.man{
+    color: hsl(202, 55%, 16%);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.btn{
+    background-color: #fff;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: none;
+}
+
+.form1{
+    margin-top: 10px;
+    width: 8cm;
+    height: 0.7cm;
+}
+
+.form{
+    color:  hsl(200, 26%, 54%);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+    font-weight: 500;
+    
+
+}
+
+.form2{
+    display:flex;
+    margin-top: 10px;
+    display: inline-flex;
+}
+
+
+.box{
+    width: 420px;
+    height: 250px;
+    border: 1px solid black;
+    margin-top: 40px;
+    background-color: hsl(200, 55%, 10%);
+    border-top: 3px solid hsl(61, 70%, 52%);
+    border-radius: 15px;
+    padding: 1em;
+}
+
+.per{
+    color:  hsl(203, 41%, 72%);
+}
+
+.amount{
+    color:  hsl(61, 70%, 52%);
+    font-size: 40pt;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.txt input{ 
+    background-color: transparent;
+    width: 8cm;
+    color: #fff;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid #fff;
+    padding: 9px;
+}
