@@ -9,47 +9,59 @@
 
 </head>
 <body>
+       <div class="main">
         <div class="container">
-            <div class="left">
-                <div class="first">
-                    <h3 class="man">Mortgage Calculator</h3>
-                    <button class="btn"><a href="">Clear All</a></button>
+            <div class="calc">
+               <div class="flex">
+                 <h3>Mortagage Calculator</h3>
+                 <button><a href="">Clear All</a></button><br>
+               </div>
+                 <div class="line1">
+                  <label for="amount">Mortgage Amount</label>
+                  <span class="currency-symbol">£</span>
+                  <input type="amount" id="amount">
 
-                </div>
-                <div class="form">
-                   <label for="text">Mortgage Amount</label><br>
-                    <input type="text" class="form1"><br><br>
-                 
-                    <div class="form2">
-                        <label for="text">Mortage Term</label><br> 
-                       <input type="text"><br>
-                       Interest Rate<br>
-                       <input type="text">
+                  
+              </div>
+
+              <div class="term-rate">
+                    <div class="both">
+                    <label for="term">Mortagage Term</label>
+                    <span class="term-years">years</span>
+                    <input type="years" id="years">
                     </div>
-                </div>
 
-                
-                
-
-            </div>
-            <div class="right">
-                <h2> Your results </h2>
-                <p class="description"> Your results are shown below based on the information <br>you provided. To adjust the results, edit the form and<br> click “calculate repayments” again. </p>
-                <div class="box">
-                    <P class="per"> Your monthly repayments </P>
-                    <h1 class="amount">€ 1,797.74</h1>
-                    <div class="txt"><input type="text"></div>
-
-                    <div class="sum">
-                        <p class="per">Total you'll repay over the term </p>
-                        <h2>€539,322.94</h2>
-
-
+                    <div class="other">
+                      <label for="rate">Mortagage Rate</label>
+                      <span class="term-years">%</span>
+                      <input type="rate" id="number">
                     </div>
                     
-                </div>
+                  </div>
+
+                  <div class="type">
+                    <span>Mortagage Type</span>
+                    <label><input type="radio" name="type" id="interest"> Repayment</label>
+                    <!-- <label for="Repayment">Repayment</label> -->
+
+                   <label><input type="radio" name="type" id="interest"> interest Only</label>
+                    <!-- <label for="interest">interest Only</label> -->
+                  </div>
+                 <div class="btn"><button><i class="fas fa-calculator"></i>Calculator Repayments</button></div>
+            </div>
+
+           
+
+            <div class="results">
+              <img src="images/illustration-empty.svg" alt="" class="illus">
+              <div class="text">
+                <h2>results Shown here</h2>
+                <p class="change"> Complete the form and click “calculate repayments” to see what your monthly repayments would be.</p>
+
+              </div>
+
             </div>
         </div>
-    
+       </div>
 </body>
 </html>
